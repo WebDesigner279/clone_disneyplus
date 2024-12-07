@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'hero';
+@use 'shows';
 
 @font-face {
     font-family: Anavir;
@@ -17,11 +18,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Avanir, sans-serif;
 }
 
 body {
     background-color: variaveis.$corDeFundo;
-    font-family: Avanir, sans-serif;
 }
 
 @mixin text($fontSize: 16px) {
