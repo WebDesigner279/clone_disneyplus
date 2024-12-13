@@ -7,11 +7,27 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secundary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -158,6 +174,128 @@
             </p>
         </div>
     </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositovos favoreitos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>                 
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>                 
+                    <li>TVs LG</li>                 
+                    <li>Roku</li>                 
+                    <li>Samsung</li>                 
+
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="vídeo games">
+                <h4 class="title--small">videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>                 
+                    <li>Xbox Series S</li>                 
+
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="celular">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulare e Tablets Android</li>
+                    <li>iPhone e iPad</li>                 
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+       <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                   <div class="language-selector">
+                    <img src="./dist/images/icones/globe.svg" alt="globo do mundo">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                   </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de Privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios Personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos Compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                2022 Disney. Disney+ e Tho Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por Tho Walt Disney Company (Brasil) Ltda. World Trado Center. Av. Das Nações Unidas, 12.551. 12.555, 12.559. Piso 10, São Paulo/SP-CEP 04578-903. Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+       </div>
+    </footer>
     <script src="./src/main.js"></script>
 </body>
 </html>                           
