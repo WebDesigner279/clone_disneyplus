@@ -53,6 +53,13 @@ body {
 .text {
     @include text;
 
+    .resposta::before {
+        content: '•'; /* Adiciona um ponto antes do texto */
+        color: variaveis.$corTextoPrincipal; /* Define a cor do ponto */
+        margin-right: 10px; /* Define o espaço entre o ponto e o texto */
+        margin-left: 24px;
+    }
+
     @media (max-width: 768px) {
         @include text(14px);
     }
